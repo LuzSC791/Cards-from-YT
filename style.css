@@ -3,12 +3,11 @@
 }
 .flex-container{
     display: flex;
-    /* flex-direction: column; */
     flex-wrap: wrap;
-    /* color: aqua; */
 }
 
 .item{
+    /* position: fixed; */
     border: 1px solid red;
 }
 
@@ -26,6 +25,7 @@ svg{
 .container-grid{
     display: grid;
     width: 79%;
+    height: 30%;
     border: 2px solid black;
     grid-template-columns: repeat(4, 24.2%);
     gap: 15px;
@@ -37,7 +37,6 @@ svg{
 
 img.card{
     width: 100%;
-    /* margin: 20px; */
     border-radius: 10px;
 }
 
@@ -49,13 +48,6 @@ h2.title-card{
 img.yt-channel{
     width: 35px;
     border-radius: 50px;
-    
-}
-
-label{
-    text-align: center;
-    /* border: 1px solid teal; */
-
 }
 
 img.logo-yt{
@@ -84,22 +76,17 @@ img.search{
 .subscription:hover{
     background-color:#efebeb;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .section-one{
-    /* width: 30px; */
-    /* height: 10%; */
     padding: 12px;
-    /* line-height: 2; */
     border: 1px solid red;
 }
 
 .section-two{
-    /* width: 30px; */
-    /* margin: 10px; */
     padding: 12px;
     border: 1px solid blue;
-    /* padding-right: 30px; */
 }
 
 
@@ -119,11 +106,23 @@ span{
     padding-left: 20px;
 }
 
+.container-subscriptions{
+    padding: 10px;
+}
+
 p.data-card{
     padding-left: 40px;
 }
 
+.decoration-none{
+    text-decoration: none;
+    color: rgb(17, 16, 16);
+}
 
+.navegation{
+    padding: 15px;
+}
 
-
-
+.navegation:hover{
+    cursor: pointer;
+}
