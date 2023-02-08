@@ -1,0 +1,129 @@
+.flex-container{
+    font-family: 'Roboto', sans-serif;
+}
+.flex-container{
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    /* color: aqua; */
+}
+
+.item{
+    border: 1px solid red;
+}
+
+.item:nth-child(1){
+    width: 99%;
+}
+.item:nth-child(2){
+    width: 19%;
+}
+
+svg{
+    width: 28px;
+}
+
+.container-grid{
+    display: grid;
+    width: 79%;
+    border: 2px solid black;
+    grid-template-columns: repeat(4, 24.2%);
+    gap: 15px;
+}
+
+.items-grid{
+    border: 1px solid darkblue;
+}
+
+img.card{
+    width: 100%;
+    /* margin: 20px; */
+    border-radius: 10px;
+}
+
+h2.title-card{
+    font-size: 15px;
+    display: inline;
+}
+
+img.yt-channel{
+    width: 35px;
+    border-radius: 50px;
+    
+}
+
+label{
+    text-align: center;
+    /* border: 1px solid teal; */
+
+}
+
+img.logo-yt{
+    width: 90px;
+}
+
+img.search{
+    width: 20px;
+}
+
+.color-gray{
+    color: 	#8b8989;
+    text-decoration: none;
+}
+
+.font-12{
+    font-size: 13px;
+}
+
+.img-subscription{
+    width: 30px;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+.subscription:hover{
+    background-color:#efebeb;
+    border-radius: 10px;
+}
+
+.section-one{
+    /* width: 30px; */
+    /* height: 10%; */
+    padding: 12px;
+    /* line-height: 2; */
+    border: 1px solid red;
+}
+
+.section-two{
+    /* width: 30px; */
+    /* margin: 10px; */
+    padding: 12px;
+    border: 1px solid blue;
+    /* padding-right: 30px; */
+}
+
+
+.section-one:hover{
+    background-color:#e3e1e1;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.section-two:hover{
+    background-color:#eeeded;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+span{
+    padding-left: 20px;
+}
+
+p.data-card{
+    padding-left: 40px;
+}
+
+
+
+
+
