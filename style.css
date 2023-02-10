@@ -19,15 +19,14 @@ svg{
 .container-grid{
     display: grid;
     width: 79%;
-    height: 10%;
-    /* border: 2px solid black; */
+    height: 5%;
     grid-template-columns: repeat(4, 24.2%);
     gap: 15px;
 }
 
 .items-grid{
-    height: 74%;
-    /* border: 5px solid rebeccapurple; */
+    height: 75%;
+    font-size: .7rem;
     box-shadow: 2px 2px 2px rgb(94, 92, 92);
     border-radius: 20px;
     overflow: hidden;
@@ -39,7 +38,7 @@ img.card{
 }
 
 .title-card{
-    font-size: 15px;
+    font-size: .9rem;
     display: inline;
 }
 
@@ -65,7 +64,6 @@ img.search{
     text-decoration: none;
 }
 
-
 .font-12{
     font-size: 13px;
 }
@@ -84,12 +82,10 @@ img.search{
 
 .section-one{
     padding: 12px;
-    /* border: 1px solid red; */
 }
 
 .section-two{
     padding: 12px;
-    /* border: 1px solid blue; */
 }
 
 .section-one:hover{
@@ -113,11 +109,9 @@ span{
 }
 
 p.data-card{
-    /* border: 1px solid rebeccapurple; */
     width: 51%;
     text-align: justify;
     padding-left: 5%;
-
 }
 
 .decoration-none{
@@ -140,8 +134,10 @@ p.data-card{
     height: 105%;
     border-radius: 20px;
 }
+
 .data-card{
     box-shadow: #e6e2e2;
+    font-size: .8rem;
 }
 
 .options{
@@ -157,7 +153,8 @@ p.data-card{
 
 .funtions-items{
     width: 90%;
-    background-color: #ebe9e9;
+    border:transparent;
+    background-color: #e5e4e4;
     border-radius: 20px;
     margin-top:4px;
     text-align: center;
@@ -169,23 +166,17 @@ p.data-card{
 
 .nav-float{
     width: 90%;
-    /* right: 8%; */
-    /* border: 3px solid yellow; */
     text-align: start;
-    /* text-align: center; */
 }
 
 .navegation-window{
     position: relative;
     display: flex;
     flex-direction: column;
-    /* width: 90%; */
-    /* height: 10%; */
-    bottom: 160px;
-    left: 2%;
+    bottom: 130px;
 }
 
-.e{
+.container{
     height: 100%;
     background-color: #fff;
 }
@@ -207,6 +198,7 @@ p.data-card{
     border-radius: 20px;
     right: 22%;
 }
+
 .items-grid:hover > p.data-card{
     width: 100%;
 }
