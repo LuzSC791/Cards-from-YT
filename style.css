@@ -140,13 +140,6 @@ p.data-card{
     font-size: .8rem;
 }
 
-.options{
-    float: right;
-    margin-top: -35px;
-    width: 8%;
-    cursor: pointer;
-}
-
 .funtions{
     padding-left: 5%;
 }
@@ -169,13 +162,49 @@ p.data-card{
     text-align: start;
 }
 
-.navegation-window{
-    position: relative;
+.navegation-window {
     display: flex;
     flex-direction: column;
-    bottom: 130px;
+    position: relative;
+    width: 10%;
+    cursor: pointer;
+    float: right;
+    bottom: 40px;
+  }
+
+.navegation-window-content {
+    display: none;
+    position: relative;
+    width: 240px;
+    font-size: .8rem;
+    background-color: #fff;
+    right:220px;
+    box-shadow: 0px 0 5px 0px rgba(0,0,0,0.4);
+  }
+
+  .navegation-window:hover {
+    cursor: pointer;
+  }
+
+.navegation-window:hover .navegation-window-content {
+    cursor: pointer;
+}
+.navegation-window-content a {
+    display: block;
+    color: #000000;
+    padding: 5px;
+    text-decoration: none;
+}
+.navegation-window-content a:hover {
+    background-color:#e3e1e1;
 }
 
+.options{
+    float: right;
+    margin-top: -35px;
+    width: 8%;
+    cursor: pointer;
+}
 .container{
     height: 100%;
     background-color: #fff;
@@ -202,4 +231,3 @@ p.data-card{
 .items-grid:hover > p.data-card{
     width: 100%;
 }
-
