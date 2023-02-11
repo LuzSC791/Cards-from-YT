@@ -18,7 +18,7 @@ svg{
 
 .container-grid{
     display: grid;
-    width: 79%;
+    width: 100%;
     height: 5%;
     grid-template-columns: repeat(4, 24.2%);
     gap: 15px;
@@ -62,42 +62,6 @@ img.search{
 .color-gray{
     color: 	#8b8989;
     text-decoration: none;
-}
-
-.font-12{
-    font-size: 13px;
-}
-
-.img-subscription{
-    width: 30px;
-    margin: 5px;
-    border-radius: 20px;
-}
-
-.subscription:hover{
-    background-color:#efebeb;
-    border-radius: 10px;
-    cursor: pointer;
-}
-
-.section-one{
-    padding: 12px;
-}
-
-.section-two{
-    padding: 12px;
-}
-
-.section-one:hover{
-    background-color:#e3e1e1;
-    border-radius: 10px;
-    cursor: pointer;
-}
-
-.section-two:hover{
-    background-color:#eeeded;
-    border-radius: 10px;
-    cursor: pointer;
 }
 
 span{
@@ -179,7 +143,7 @@ p.data-card{
     font-size: .8rem;
     background-color: #fff;
     right:220px;
-    box-shadow: 0px 0 5px 0px rgba(0,0,0,0.4);
+    box-shadow: 0px 0 5px 0px rgba(0,0,0,0.5);
   }
 
   .navegation-window:hover {
