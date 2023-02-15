@@ -34,6 +34,25 @@ img.card{
     color: #000000;
 }
 
+.grid-over:hover{
+    position: relative;
+    background-color: #fff;
+    width: 130%;
+    height: 105%;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px rgb(94, 92, 92);
+}
+
+.grid-overight:hover{
+    position: relative;
+    background-color: #fff;
+    width: 130%;
+    height: 105%;
+    border-radius: 20px;
+    right: 30%;
+    box-shadow: 2px 2px 2px rgb(188, 188, 188);
+}
+
 
 /* .grid-items{
     height: 75%;
@@ -53,6 +72,26 @@ img.card{
     border-radius: 20px;
     /* overflow: hidden; */
 } 
+
+#flex-button{
+    display: none;
+}
+
+.grid-items:hover #flex-button{
+    display: block;
+}
+
+/* #flex-buttonTwo{
+    display: none;
+}
+
+#flex-buttonFive{
+    display: none;
+}
+.grid-items:hover #flex-buttonFive{
+    display: block;
+} */
+
 .flex-avatar{
     display: flex;
     flex-direction: row;

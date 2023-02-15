@@ -12,7 +12,7 @@
 </head>
 <body>
     <div class="container-grid">
-        <div class="grid-items">
+        <div class="grid-items" id="item-one" onmouseover="itemOverOn()" onmouseout="itemOverOff()">
             <a href="https://www.youtube.com/watch?v=gQlMMD8auMs">
                 <img class="card" src="img/item-grid1.jpg" alt="Pink venom" title="BLACKPINK" >
             </a>
@@ -29,22 +29,24 @@
                 </div>
             </div>
 
-            <div class="flex-button" id="flex-button">
-                <!-- <a class="decoration-none" href="https://www.youtube.com/playlist?list=WL">
-                    <button class="funtions-items">   
-                        <svg  width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M12 0c6.623 0 12 5.377 12 12s-5.377 12-12 12-12-5.377-12-12 5.377-12 12-12zm0 1c6.071 0 11 4.929 11 11s-4.929 11-11 11-11-4.929-11-11 4.929-11 11-11zm0 11h6v1h-7v-9h1v8z"/></svg>
-                        <span>Ver más tarde</span>
-                    </button>
-                </a>
-                <a class="decoration-none" href="https://www.youtube.com/playlist?list=WL">
-                    <button class="funtions-items">
-                        <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M15 21v-10l9 5-9 5zm-3 0h-12v-2h12v2zm0-4.024h-12v-2h12v2zm0-3.976h-12v-2h12v2zm12-4h-24v-2h24v2zm0-6v2h-24v-2h24z"/></svg>
-                        <span>Añadir a cola</span>
-                    </button>
-                </a>  -->
+            <div id="flex-button">
+                <div class="flex-button">
+                    <a class="decoration-none" href="https://www.youtube.com/playlist?list=WL">
+                        <button class="funtions-items">   
+                            <svg  width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M12 0c6.623 0 12 5.377 12 12s-5.377 12-12 12-12-5.377-12-12 5.377-12 12-12zm0 1c6.071 0 11 4.929 11 11s-4.929 11-11 11-11-4.929-11-11 4.929-11 11-11zm0 11h6v1h-7v-9h1v8z"/></svg>
+                            <span>Ver más tarde</span>
+                        </button>
+                    </a>
+                    <a class="decoration-none" href="https://www.youtube.com/playlist?list=WL">
+                        <button class="funtions-items">
+                            <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M15 21v-10l9 5-9 5zm-3 0h-12v-2h12v2zm0-4.024h-12v-2h12v2zm0-3.976h-12v-2h12v2zm12-4h-24v-2h24v2zm0-6v2h-24v-2h24z"/></svg>
+                            <span>Añadir a cola</span>
+                        </button>
+                    </a> 
+                </div>
             </div>
         </div>
-            <div class="grid-items">
+            <div class="grid-items" id="item-two">
                 <a href="https://www.youtube.com/watch?v=8C6xDjQ66wM">
                     <img class="card" src="img/item-grid2.jpg" alt="Te aviso - te anuncio">
                 </a>
@@ -60,23 +62,25 @@
                         <span class="color-gray">• hace 13 años</span> -->
                     </div>
                 </div>
-                <div class="flex-button">
-                    <!-- <a class="decoration-none" href="https://www.youtube.com/playlist?list=WL">
-                        <button class="funtions-items">   
-                            <svg  width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M12 0c6.623 0 12 5.377 12 12s-5.377 12-12 12-12-5.377-12-12 5.377-12 12-12zm0 1c6.071 0 11 4.929 11 11s-4.929 11-11 11-11-4.929-11-11 4.929-11 11-11zm0 11h6v1h-7v-9h1v8z"/></svg>
-                            <span>Ver más tarde</span>
-                        </button>
-                    </a>
-                    <a class="decoration-none" href="https://www.youtube.com/playlist?list=WL">
-                        <button class="funtions-items">
-                            <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M15 21v-10l9 5-9 5zm-3 0h-12v-2h12v2zm0-4.024h-12v-2h12v2zm0-3.976h-12v-2h12v2zm12-4h-24v-2h24v2zm0-6v2h-24v-2h24z"/></svg>
-                            <span>Añadir a cola</span>
-                        </button>
-                    </a>  -->
+
+                <div id="flex-button">
+                    <div class="flex-button">
+                        <a class="decoration-none" href="https://www.youtube.com/playlist?list=WL">
+                            <button class="funtions-items">   
+                                <svg  width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M12 0c6.623 0 12 5.377 12 12s-5.377 12-12 12-12-5.377-12-12 5.377-12 12-12zm0 1c6.071 0 11 4.929 11 11s-4.929 11-11 11-11-4.929-11-11 4.929-11 11-11zm0 11h6v1h-7v-9h1v8z"/></svg>
+                                <span>Ver más tarde</span>
+                            </button>
+                        </a>
+                        <a class="decoration-none" href="https://www.youtube.com/playlist?list=WL">
+                            <button class="funtions-items">
+                                <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M15 21v-10l9 5-9 5zm-3 0h-12v-2h12v2zm0-4.024h-12v-2h12v2zm0-3.976h-12v-2h12v2zm12-4h-24v-2h24v2zm0-6v2h-24v-2h24z"/></svg>
+                                <span>Añadir a cola</span>
+                            </button>
+                        </a> 
+                    </div>
                 </div>
             </div>
-
-            <div class="grid-items">
+            <div class="grid-items" id="item-three" onmouseover="itemOverOn()" onmouseout="itemOverOff()">
                 <a href="https://www.youtube.com/watch?v=yu9HI6J5LxM">
                     <img class="card" src="img/item-grid3.jpg" alt="Escritorio de un desarrollador">
                 </a>
@@ -91,23 +95,25 @@
                        <span class="color-gray">• hace 8 meses</span> -->
                    </div>
                 </div>
-                <div class="flex-button">
-                    <!-- <a class="decoration-none" href="https://www.youtube.com/playlist?list=WL">
-                        <button class="funtions-items">   
-                            <svg  width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M12 0c6.623 0 12 5.377 12 12s-5.377 12-12 12-12-5.377-12-12 5.377-12 12-12zm0 1c6.071 0 11 4.929 11 11s-4.929 11-11 11-11-4.929-11-11 4.929-11 11-11zm0 11h6v1h-7v-9h1v8z"/></svg>
-                            <span>Ver más tarde</span>
-                        </button>
-                    </a>
-                    <a class="decoration-none" href="https://www.youtube.com/playlist?list=WL">
-                        <button class="funtions-items">
-                            <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M15 21v-10l9 5-9 5zm-3 0h-12v-2h12v2zm0-4.024h-12v-2h12v2zm0-3.976h-12v-2h12v2zm12-4h-24v-2h24v2zm0-6v2h-24v-2h24z"/></svg>
-                            <span>Añadir a cola</span>
-                        </button>
-                    </a>  -->
+                <div id="flex-button">
+                    <div class="flex-button" >
+                        <a class="decoration-none" href="https://www.youtube.com/playlist?list=WL">
+                            <button class="funtions-items">   
+                                <svg  width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M12 0c6.623 0 12 5.377 12 12s-5.377 12-12 12-12-5.377-12-12 5.377-12 12-12zm0 1c6.071 0 11 4.929 11 11s-4.929 11-11 11-11-4.929-11-11 4.929-11 11-11zm0 11h6v1h-7v-9h1v8z"/></svg>
+                                <span>Ver más tarde</span>
+                            </button>
+                        </a>
+                        <a class="decoration-none" href="https://www.youtube.com/playlist?list=WL">
+                            <button class="funtions-items">
+                                <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M15 21v-10l9 5-9 5zm-3 0h-12v-2h12v2zm0-4.024h-12v-2h12v2zm0-3.976h-12v-2h12v2zm12-4h-24v-2h24v2zm0-6v2h-24v-2h24z"/></svg>
+                                <span>Añadir a cola</span>
+                            </button>
+                        </a> 
+                    </div>
                 </div>
             </div>
 
-            <div class="grid-items">
+            <div class="grid-items" id="item-for" onmouseover="itemOverOn()">
                 <a href="https://www.youtube.com/watch?v=yNd9ZBtP-cg">
                     <img class="card" src="img/item-grid4.jpg" alt="Astro - fazt">
                 </a>
@@ -122,8 +128,9 @@
                        <span class="color-gray">• hace 2 meses</span> -->
                    </div>
                 </div>
+            <div id="flex-button">
                 <div class="flex-button">
-                    <!-- <a class="decoration-none" href="https://www.youtube.com/playlist?list=WL">
+                    <a class="decoration-none" href="https://www.youtube.com/playlist?list=WL">
                         <button class="funtions-items">   
                             <svg  width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M12 0c6.623 0 12 5.377 12 12s-5.377 12-12 12-12-5.377-12-12 5.377-12 12-12zm0 1c6.071 0 11 4.929 11 11s-4.929 11-11 11-11-4.929-11-11 4.929-11 11-11zm0 11h6v1h-7v-9h1v8z"/></svg>
                             <span>Ver más tarde</span>
@@ -134,11 +141,12 @@
                             <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M15 21v-10l9 5-9 5zm-3 0h-12v-2h12v2zm0-4.024h-12v-2h12v2zm0-3.976h-12v-2h12v2zm12-4h-24v-2h24v2zm0-6v2h-24v-2h24z"/></svg>
                             <span>Añadir a cola</span>
                         </button>
-                    </a>  -->
+                    </a> 
                 </div>
             </div>
+        </div>
 
-            <div class="grid-items">
+            <div class="grid-items" id="item-five" onmouseover="itemOverOn()">
                 <a href="https://www.youtube.com/watch?v=bkQw-F1QTq4">
                     <img class="card" src="img/item-grid5.jpg" alt="Cry for me">
                 </a>
@@ -146,31 +154,33 @@
                     <a href="https://www.youtube.com/channel/UCzgxx_DM2Dcb9Y1spb9mUJA">
                         <img src="img/channel5.jpg" alt="Twice" title="TWICE" class="yt-channel">
                     </a>
-                    <div class="flex-card" id="cry-card">
+                    <div class="flex-card" id="cry-card" onmouseover="itemOver()">
                         <!-- <a href="https://www.youtube.com/watch?v=bkQw-F1QTq4" title="TWICE 'CRY FOR ME' Choreography" class="color-gray ft-weight"><span>TWICE 'CRY FOR ME' Choreography - 2</span></><br><br><br>
                         <a href="https://www.youtube.com/channel/UCzgxx_DM2Dcb9Y1spb9mUJA" title="TWICE" class="color-gray ft-weight"><span>TWICE</span></a> 
                         <span class="color-gray">130M de vistas</span>
                         <span class="color-gray">• hace 2 años</span> -->
                     </div>
                 </div>
-        
-                <div class="flex-button">
-                    <!-- <a class="decoration-none" href="https://www.youtube.com/playlist?list=WL">
-                        <button class="funtions-items">   
-                            <svg  width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M12 0c6.623 0 12 5.377 12 12s-5.377 12-12 12-12-5.377-12-12 5.377-12 12-12zm0 1c6.071 0 11 4.929 11 11s-4.929 11-11 11-11-4.929-11-11 4.929-11 11-11zm0 11h6v1h-7v-9h1v8z"/></svg>
-                            <span>Ver más tarde</span>
-                        </button>
-                    </a>
-                    <a class="decoration-none" href="https://www.youtube.com/playlist?list=WL">
-                        <button class="funtions-items">
-                            <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M15 21v-10l9 5-9 5zm-3 0h-12v-2h12v2zm0-4.024h-12v-2h12v2zm0-3.976h-12v-2h12v2zm12-4h-24v-2h24v2zm0-6v2h-24v-2h24z"/></svg>
-                            <span>Añadir a cola</span>
-                        </button>
-                    </a>  -->
+
+                <div id="flex-button">
+                    <div class="flex-button">
+                        <a class="decoration-none" href="https://www.youtube.com/playlist?list=WL">
+                            <button class="funtions-items">   
+                                <svg  width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M12 0c6.623 0 12 5.377 12 12s-5.377 12-12 12-12-5.377-12-12 5.377-12 12-12zm0 1c6.071 0 11 4.929 11 11s-4.929 11-11 11-11-4.929-11-11 4.929-11 11-11zm0 11h6v1h-7v-9h1v8z"/></svg>
+                                <span>Ver más tarde</span>
+                            </button>
+                        </a>
+                        <a class="decoration-none" href="https://www.youtube.com/playlist?list=WL">
+                            <button class="funtions-items">
+                                <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M15 21v-10l9 5-9 5zm-3 0h-12v-2h12v2zm0-4.024h-12v-2h12v2zm0-3.976h-12v-2h12v2zm12-4h-24v-2h24v2zm0-6v2h-24v-2h24z"/></svg>
+                                <span>Añadir a cola</span>
+                            </button>
+                        </a> 
+                    </div>
                 </div>
             </div>
-
-            <div class="grid-items">
+        
+            <div class="grid-items" id="item-six" onmouseover="itemOverOn()">
                 <a href="https://www.youtube.com/watch?v=vRXZj0DzXIA">
                     <img class="card" src="img/item-grid6.jpg" alt="Ice cream" >
                 </a>
@@ -185,23 +195,25 @@
                         <span class="color-gray">• hace 2 años</span> -->
                     </div>
                 </div>
-                <div class="flex-button">
-                    <!-- <a class="decoration-none" href="https://www.youtube.com/playlist?list=WL">
-                        <button class="funtions-items">   
-                            <svg  width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M12 0c6.623 0 12 5.377 12 12s-5.377 12-12 12-12-5.377-12-12 5.377-12 12-12zm0 1c6.071 0 11 4.929 11 11s-4.929 11-11 11-11-4.929-11-11 4.929-11 11-11zm0 11h6v1h-7v-9h1v8z"/></svg>
-                            <span>Ver más tarde</span>
-                        </button>
-                    </a>
-                    <a class="decoration-none" href="https://www.youtube.com/playlist?list=WL">
-                        <button class="funtions-items">
-                            <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M15 21v-10l9 5-9 5zm-3 0h-12v-2h12v2zm0-4.024h-12v-2h12v2zm0-3.976h-12v-2h12v2zm12-4h-24v-2h24v2zm0-6v2h-24v-2h24z"/></svg>
-                            <span>Añadir a cola</span>
-                        </button>
-                    </a>  -->
+                <div id="flex-button">
+                    <div class="flex-button">
+                        <a class="decoration-none" href="https://www.youtube.com/playlist?list=WL">
+                            <button class="funtions-items">   
+                                <svg  width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M12 0c6.623 0 12 5.377 12 12s-5.377 12-12 12-12-5.377-12-12 5.377-12 12-12zm0 1c6.071 0 11 4.929 11 11s-4.929 11-11 11-11-4.929-11-11 4.929-11 11-11zm0 11h6v1h-7v-9h1v8z"/></svg>
+                                <span>Ver más tarde</span>
+                            </button>
+                        </a>
+                        <a class="decoration-none" href="https://www.youtube.com/playlist?list=WL">
+                            <button class="funtions-items">
+                                <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M15 21v-10l9 5-9 5zm-3 0h-12v-2h12v2zm0-4.024h-12v-2h12v2zm0-3.976h-12v-2h12v2zm12-4h-24v-2h24v2zm0-6v2h-24v-2h24z"/></svg>
+                                <span>Añadir a cola</span>
+                            </button>
+                        </a> 
+                    </div>
                 </div>
             </div>
 
-            <div class="grid-items">
+            <div class="grid-items" id="item-seven" onmouseover="itemOverOn()">
                 <a href="https://www.youtube.com/watch?v=dNCWe_6HAM8">
                     <img class="card" src="img/item-grid7.jpg" alt="Money" >
                 </a>
@@ -216,23 +228,26 @@
                         <span class="color-gray">• hace 1 año</span> -->
                    </div>
                 </div>
-                <div class="flex-button">
-                    <!-- <a class="decoration-none" href="https://www.youtube.com/playlist?list=WL">
-                        <button class="funtions-items">   
-                            <svg  width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M12 0c6.623 0 12 5.377 12 12s-5.377 12-12 12-12-5.377-12-12 5.377-12 12-12zm0 1c6.071 0 11 4.929 11 11s-4.929 11-11 11-11-4.929-11-11 4.929-11 11-11zm0 11h6v1h-7v-9h1v8z"/></svg>
-                            <span>Ver más tarde</span>
-                        </button>
-                    </a>
-                    <a class="decoration-none" href="https://www.youtube.com/playlist?list=WL">
-                        <button class="funtions-items">
-                            <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M15 21v-10l9 5-9 5zm-3 0h-12v-2h12v2zm0-4.024h-12v-2h12v2zm0-3.976h-12v-2h12v2zm12-4h-24v-2h24v2zm0-6v2h-24v-2h24z"/></svg>
-                            <span>Añadir a cola</span>
-                        </button>
-                    </a>  -->
+                
+                <div id="flex-button">
+                    <div class="flex-button">
+                        <a class="decoration-none" href="https://www.youtube.com/playlist?list=WL">
+                            <button class="funtions-items">   
+                                <svg  width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M12 0c6.623 0 12 5.377 12 12s-5.377 12-12 12-12-5.377-12-12 5.377-12 12-12zm0 1c6.071 0 11 4.929 11 11s-4.929 11-11 11-11-4.929-11-11 4.929-11 11-11zm0 11h6v1h-7v-9h1v8z"/></svg>
+                                <span>Ver más tarde</span>
+                            </button>
+                        </a>
+                        <a class="decoration-none" href="https://www.youtube.com/playlist?list=WL">
+                            <button class="funtions-items">
+                                <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M15 21v-10l9 5-9 5zm-3 0h-12v-2h12v2zm0-4.024h-12v-2h12v2zm0-3.976h-12v-2h12v2zm12-4h-24v-2h24v2zm0-6v2h-24v-2h24z"/></svg>
+                                <span>Añadir a cola</span>
+                            </button>
+                        </a> 
+                    </div>
                 </div>
             </div>
 
-            <div class="grid-items">
+            <div class="grid-items" id="item-eight" onmouseover="itemOverOn()">
                 <a href="https://www.youtube.com/watch?v=9XyiBI53LZ0">
                     <img class="card" src="img/item-grid8.jpg" alt="Amarrame" >
                 </a>
@@ -247,21 +262,22 @@
                        <span class="color-gray">• hace 5 meses</span> -->
                    </div>
                 </div>
-                <div class="flex-button">
-                    <!-- <a class="decoration-none" href="https://www.youtube.com/playlist?list=WL">
-                        <button class="funtions-items">   
-                            <svg  width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M12 0c6.623 0 12 5.377 12 12s-5.377 12-12 12-12-5.377-12-12 5.377-12 12-12zm0 1c6.071 0 11 4.929 11 11s-4.929 11-11 11-11-4.929-11-11 4.929-11 11-11zm0 11h6v1h-7v-9h1v8z"/></svg>
-                            <span>Ver más tarde</span>
-                        </button>
-                    </a>
-                    <a class="decoration-none" href="https://www.youtube.com/playlist?list=WL">
-                        <button class="funtions-items">
-                            <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M15 21v-10l9 5-9 5zm-3 0h-12v-2h12v2zm0-4.024h-12v-2h12v2zm0-3.976h-12v-2h12v2zm12-4h-24v-2h24v2zm0-6v2h-24v-2h24z"/></svg>
-                            <span>Añadir a cola</span>
-                        </button>
-                    </a>  -->
+                <div id="flex-button">
+                    <div class="flex-button">
+                        <a class="decoration-none" href="https://www.youtube.com/playlist?list=WL">
+                            <button class="funtions-items">   
+                                <svg  width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M12 0c6.623 0 12 5.377 12 12s-5.377 12-12 12-12-5.377-12-12 5.377-12 12-12zm0 1c6.071 0 11 4.929 11 11s-4.929 11-11 11-11-4.929-11-11 4.929-11 11-11zm0 11h6v1h-7v-9h1v8z"/></svg>
+                                <span>Ver más tarde</span>
+                            </button>
+                        </a>
+                        <a class="decoration-none" href="https://www.youtube.com/playlist?list=WL">
+                            <button class="funtions-items">
+                                <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M15 21v-10l9 5-9 5zm-3 0h-12v-2h12v2zm0-4.024h-12v-2h12v2zm0-3.976h-12v-2h12v2zm12-4h-24v-2h24v2zm0-6v2h-24v-2h24z"/></svg>
+                                <span>Añadir a cola</span>
+                            </button>
+                        </a> 
+                    </div>
                 </div>
-            </div>
     <script src="main.js"></script>
 </body>
 </html>

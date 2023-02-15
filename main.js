@@ -36,7 +36,7 @@ const amaCard = document.getElementById('amarrame-card');
 
 const flexButton = document.getElementById('flex-button');
 
-pvCard.innerHTML = `<span>${blackpink.title}</span><br><br>
+pvCard.innerHTML = `<span>${blackpink.title}</span><br>
     <span>${blackpink.channel}</span>
     <span>${blackpink.views}</span>
     <span>${blackpink.time}</span>`
@@ -69,9 +69,52 @@ amaCard.innerHTML = `<span>${mon.title}</span><br><br>
     <span>${mon.views}</span>
     <span>${mon.time}</span>`
 
+    document.getElementById('flex-button').style.display('none')
 
 
+function itemOverOn(){
+    document.getElementById('item-one').classList.add('grid-over');
+    document.getElementById('item-two').classList.add('grid-over');
+    document.getElementById('item-three').classList.add('grid-over');
+    document.getElementById('item-for').classList.add('grid-overight');
+    document.getElementById('item-five').classList.add('grid-over');
+    document.getElementById('item-six').classList.add('grid-over');
+    document.getElementById('item-seven').classList.add('grid-over');
+    document.getElementById('item-eight').classList.add('grid-overight');        
+        
+}
 
+// function muestraBtn(){
+//     const btn = document.getElementById("flex-button");
+//     const btn2 = document.getElementById("flex-buttonTwo");
+    
+//     block(btn);
+//     block(btn2);
+
+//     function block(btn){
+//         // if (btn.style.display === "none")
+//             btn.style.display = "block";
+//     }
+// }
+
+
+// function itemOverOff(){      
+
+//     const btn = document.getElementById("flex-button");
+//     const btn2 = document.getElementById("flex-buttonTwo");
+    
+//     block(btn);
+//     block(btn2);
+
+//     function block(btn){
+//         // if (btn.style.display === "none")
+//             btn.style.display = "none";
+//     }
+        
+// }
+        
+
+    
 
 
 
