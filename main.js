@@ -36,41 +36,70 @@ const amaCard = document.getElementById('amarrame-card');
 
 const flexButton = document.getElementById('flex-button');
 
-pvCard.innerHTML = `<span>${blackpink.title}</span><br>
-    <span>${blackpink.channel}</span>
+pvCard.innerHTML = `<a class="ft-weight" 
+    href="${blackpink.linkVideo}" title="${blackpink.title}">
+    <span>${blackpink.title}</span></a><br><br><br>
+    <a class="ft-weight" href="${blackpink.linkChannel}" title="${blackpink.channel}">
+    <span class=ft-weight>${blackpink.channel}</span></a>
     <span>${blackpink.views}</span>
     <span>${blackpink.time}</span>`
-taCard.innerHTML = `<span>${shakira.title}</span><br><br>
-    <span>${shakira.channel}</span>
+
+taCard.innerHTML = `<a class="ft-weight" 
+    href="${shakira.linkVideo}" title="${shakira.title}">
+    <span>${shakira.title}</span></a><br><br>
+    <a class="ft-weight" href="${shakira.linkChannel}" title="${shakira.linkChannel}">
+    <span class=ft-weight class=ft-weight>${shakira.channel}</span></a>
     <span>${shakira.views}</span>
     <span>${shakira.time}</span>`
-escCard.innerHTML = `<span>${programadorX.title}</span><br><br>
-    <span>${programadorX.channel}</span>
+
+escCard.innerHTML = `<a class="ft-weight" 
+    href="${programadorX.linkVideo}" title="${programadorX.title}">
+    <span>${programadorX.title}</span></a><br><br>
+    <a class="ft-weight" 
+    href="${programadorX.linkChannel}" title="${programadorX.channel}">
+    <span class="ft-weight">${programadorX.channel}</span></a>
     <span>${programadorX.views}</span>
     <span>${programadorX.time}</span>`
-astroCard.innerHTML = `<span>${fazt.title}</span><br><br>
-    <span>${fazt.channel}</span>
+
+astroCard.innerHTML = `<a class="ft-weight" 
+    href="${fazt.linkVideo}" title="${fazt.title}">
+    <span>${fazt.title}</span></a><br><br>
+    <a class="ft-weight" href="${fazt.linkChannel}" title="${fazt.channel}">
+    <span class="ft-weight">${fazt.channel}</span></a>
     <span>${fazt.views}</span>
     <span>${fazt.time}</span>`
-cryCard.innerHTML = `<span>${twice.title}</span><br><br>
-    <span>${twice.channel}</span>
+
+cryCard.innerHTML = `<a class="ft-weight" 
+    href="${twice.linkVideo}" title="${twice.title}">
+    <span>${twice.title}</span></a><br><br><br>
+    <a class="ft-weight" href="${twice.linkChannel}" title="${twice.channel}">
+    <span class="ft-weight">${twice.channel}</span></a>
     <span>${twice.views}</span>
     <span>${twice.time}</span>`
-iceCard.innerHTML = `<span>${ice.title}</span><br><br>
-    <span>${ice.channel}</span>
+
+iceCard.innerHTML = `<a class="ft-weight" 
+    href="${ice.linkVideo}" title="${ice.title}">
+    <span>${ice.title}</span></a><br><br>
+    <a class="ft-weight" href="${ice.linkChannel}" title="${ice.channel}">
+    <span class="ft-weight">${ice.channel}</span></a>
     <span>${ice.views}</span>
     <span>${ice.time}</span>`
-moneyCard.innerHTML = `<span>${money.title}</span><br><br>
-    <span>${money.channel}</span>
+
+moneyCard.innerHTML = `<a class="ft-weight " 
+    href="${money.linkVideo}" title="${money.title}">
+    <span>${money.title}</span></a><br><br>
+    <a class="ft-weight" href="${money.linkChannel}" title="${money.channel}">
+    <span class="ft-weight">${money.channel}</span></a>
     <span>${money.views}</span>
     <span>${money.time}</span>`
-amaCard.innerHTML = `<span>${mon.title}</span><br><br>
-    <span>${mon.channel}</span>
+
+amaCard.innerHTML = `<a class="ft-weight" 
+    href="${mon.linkVideo}" title="${mon.title}">
+    <span>${mon.title}</span></a><br><br>
+    <a class="ft-weight" href="${mon.linkChannel}" title="${mon.channel}">
+    <span class="ft-weight">${mon.channel}</span></a>
     <span>${mon.views}</span>
     <span>${mon.time}</span>`
-
-    document.getElementById('flex-button').style.display('none')
-
 
 function itemOverOn(){
     document.getElementById('item-one').classList.add('grid-over');
@@ -80,44 +109,8 @@ function itemOverOn(){
     document.getElementById('item-five').classList.add('grid-over');
     document.getElementById('item-six').classList.add('grid-over');
     document.getElementById('item-seven').classList.add('grid-over');
-    document.getElementById('item-eight').classList.add('grid-overight');        
-        
+    document.getElementById('item-eight').classList.add('grid-overight');                
 }
-
-// function muestraBtn(){
-//     const btn = document.getElementById("flex-button");
-//     const btn2 = document.getElementById("flex-buttonTwo");
-    
-//     block(btn);
-//     block(btn2);
-
-//     function block(btn){
-//         // if (btn.style.display === "none")
-//             btn.style.display = "block";
-//     }
-// }
-
-
-// function itemOverOff(){      
-
-//     const btn = document.getElementById("flex-button");
-//     const btn2 = document.getElementById("flex-buttonTwo");
-    
-//     block(btn);
-//     block(btn2);
-
-//     function block(btn){
-//         // if (btn.style.display === "none")
-//             btn.style.display = "none";
-//     }
-        
-// }
-        
-
-    
-
-
-
 
 
 
