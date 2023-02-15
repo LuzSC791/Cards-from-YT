@@ -3,19 +3,15 @@
     grid-template-columns: repeat(4, 1fr);
     gap: 1%;
     font-family: 'Roboto', sans-serif;
-    border: 2px solid rebeccapurple;
 }
-
 img.yt-channel{
     width: 35px;
     border-radius: 50px;
 }
-
 img.card{
     width:100%;
     border-radius: 20px;
 }
-
 .title-card{
     text-decoration: none;
     font-size: .9rem;
@@ -25,7 +21,6 @@ img.card{
 .title-size{
     width: 85%;
 }
-
 .color-gray{
     color: 	#8b8989;
     text-decoration: none;
@@ -34,7 +29,6 @@ img.card{
     text-decoration: none;
     color: #000000;
 }
-
 .grid-over:hover{
     position: relative;
     background-color: #fff;
@@ -43,7 +37,6 @@ img.card{
     border-radius: 20px;
     box-shadow: 2px 2px 2px rgb(94, 92, 92);
 }
-
 .grid-overight:hover{
     position: relative;
     background-color: #fff;
@@ -67,7 +60,6 @@ img.card{
     height: 85%;
     font-size: .7rem;
     border-radius: 20px;
-    /* overflow: hidden; */
 } 
 
 #flex-button{
@@ -78,12 +70,10 @@ img.card{
     display: block;
     border-radius: 20px;
 }
-
 .flex-avatar{
     display: flex;
     flex-direction: row;
-    justify-items: center;
-    margin-top: 2%;
+    margin: 2%;
 }
 .ft-weight{
     font-weight: 700;
@@ -93,9 +83,7 @@ img.card{
     display: flex;
     flex-direction: column;
     width: 70%;
-    align-items: start;
-    justify-content: space-between;
-    margin-left: 3%;
+    margin-left: 5%;
     font-size: .8rem;
 } 
 .flex-button{
@@ -103,7 +91,6 @@ img.card{
     justify-content: space-around;
     align-items: flex-end;
 }
-
 .funtions-items{
     width: 100%;
     border:transparent;
@@ -112,7 +99,6 @@ img.card{
     margin:10%;
     text-align: center;
 }
-
 .funtions-items:hover{
     cursor: pointer;
 }
