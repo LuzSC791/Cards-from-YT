@@ -34,8 +34,6 @@ const iceCard = document.getElementById('ice-card');
 const moneyCard = document.getElementById('money-card');
 const amaCard = document.getElementById('amarrame-card');
 
-const flexButton = document.getElementById('flex-button');
-
 pvCard.innerHTML = `<a class="ft-weight" 
     href="${blackpink.linkVideo}" title="${blackpink.title}">
     <span>${blackpink.title}</span></a><br><br><br>
@@ -111,6 +109,19 @@ function itemOverOn(){
     document.getElementById('item-seven').classList.add('grid-over');
     document.getElementById('item-eight').classList.add('grid-overight');                
 }
+
+function openWindow() {
+    let nav = document.querySelector('#navegation-window-content');
+
+    if (Object.entries(nav.style.display).length==0)
+        nav.style.display = "none";
+    if (nav.style.display == "none")
+        nav.style.display = "block";
+    else 
+        nav.style.display = "none";
+
+}
+
 
 
 
