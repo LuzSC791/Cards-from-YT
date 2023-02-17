@@ -25,14 +25,14 @@ const money = new Video( "LISA - 'MONEY' EXCLUSIVE PERFORMANCE VIDEO", "BLACKPIN
 
 const mon = new Video( "Mon Laferte - Amárrame / Pa´Dónde Se Fue (En Vivo)", "Mon Laferte", "500M de vistas", "• hace 5 meses", "https://www.youtube.com/channel/UCn51E6eKnnLklWOcdFT3w5A", "https://www.youtube.com/watch?v=9XyiBI53LZ0")
 
-const pvCard = document.getElementById('pinkvenom-card');
-const taCard = document.getElementById('teaviso-card');
-const escCard = document.getElementById('escritorio-card');
-const astroCard = document.getElementById('astro-card');
-const cryCard = document.getElementById('cry-card');
-const iceCard = document.getElementById('ice-card');
-const moneyCard = document.getElementById('money-card');
-const amaCard = document.getElementById('amarrame-card');
+const pvCard = document.querySelector('#pinkvenom-card');
+const taCard = document.querySelector('#teaviso-card');
+const escCard = document.querySelector('#escritorio-card');
+const astroCard = document.querySelector('#astro-card');
+const cryCard = document.querySelector('#cry-card');
+const iceCard = document.querySelector('#ice-card');
+const moneyCard = document.querySelector('#money-card');
+const amaCard = document.querySelector('#amarrame-card');
 
 pvCard.innerHTML = `<a class="ft-weight" 
     href="${blackpink.linkVideo}" title="${blackpink.title}">
@@ -100,29 +100,22 @@ amaCard.innerHTML = `<a class="ft-weight"
     <span>${mon.time}</span>`
 
 function itemOverOn(){
-    document.getElementById('item-one').classList.add('grid-over');
-    document.getElementById('item-two').classList.add('grid-over');
-    document.getElementById('item-three').classList.add('grid-over');
-    document.getElementById('item-for').classList.add('grid-overight');
-    document.getElementById('item-five').classList.add('grid-over');
-    document.getElementById('item-six').classList.add('grid-over');
-    document.getElementById('item-seven').classList.add('grid-over');
-    document.getElementById('item-eight').classList.add('grid-overight');                
+    document.querySelector('#item-one').classList.add('grid-over');
+    document.querySelector('#item-two').classList.add('grid-over');
+    document.querySelector('#item-three').classList.add('grid-over');
+    document.querySelector('#item-for').classList.add('grid-overight');
+    document.querySelector('#item-five').classList.add('grid-over');
+    document.querySelector('#item-six').classList.add('grid-over');
+    document.querySelector('#item-seven').classList.add('grid-over');
+    document.querySelector('#item-eight').classList.add('grid-overight');                
 }
 
-function openWindow() {
-    let nav = document.querySelector('#navegation-window-content');
-
+let opc = document.querySelector('.options');
+let nav = document.querySelector('#navegation-window-content');
+opc.addEventListener('click', () =>{
     if (Object.entries(nav.style.display).length==0)
         nav.style.display = "none";
-    if (nav.style.display == "none")
-        nav.style.display = "block";
-    else 
-        nav.style.display = "none";
 
-}
-
-
-
-
-
+    nav.style.display == "none" ? nav.style.display = "block"
+        : nav.style.display = "none"
+})
